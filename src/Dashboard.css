@@ -1,0 +1,61 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .profile-section,
+  .logo-section,
+  .datetime-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-section button,
+  .datetime-section button {
+    margin-left: 10px;
+  }
+  
+  .dashboard-main {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #e0e0e0;
+    padding: 10px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+  }
+  
